@@ -86,8 +86,8 @@
 <meta property="og:site_name" content="有機化學入門">
 <meta property="og:description" content="關於: 一個有機入門的網站date: 2020-04-04 21:04:14希望對有機化學有興趣的人可以從這裡學到一些相關的知識，並且以最簡單的方式記憶相關知識，不像課本艱深難讀。本網站不會顯示太困難的有機化合物，只會出現簡單的分子本網站不做任何營利的用途，單純分享知識，如有侵權會盡快刪除參考資料 solomons’ organic chemistry, 12th edition, global">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2020-04-30T15:41:49.610Z">
-<meta property="article:modified_time" content="2020-04-30T15:41:49.610Z">
+<meta property="article:published_time" content="2020-05-02T04:30:38.408Z">
+<meta property="article:modified_time" content="2020-05-02T04:30:38.408Z">
 <meta property="article:author" content="Clarence">
 <meta property="article:tag" content="organic chemistry">
 <meta name="twitter:card" content="summary">
@@ -260,7 +260,25 @@
         
           <hr>
 <h1 id="關於-一個有機入門的網站"><a href="#關於-一個有機入門的網站" class="headerlink" title="關於: 一個有機入門的網站"></a>關於: 一個有機入門的網站</h1><h2 id="date-2020-04-04-21-04-14"><a href="#date-2020-04-04-21-04-14" class="headerlink" title="date: 2020-04-04 21:04:14"></a>date: 2020-04-04 21:04:14</h2><p>希望對有機化學有興趣的人可以從這裡學到一些相關的知識<br>，並且以最簡單的方式記憶相關知識，不像課本艱深難讀。<br>本網站不會顯示太困難的有機化合物，只會出現簡單的分子<br>本網站不做任何營利的用途，單純分享知識，如有侵權會盡快刪除<br>參考資料 solomons’ organic chemistry, 12th edition, global edition solution</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         
       </div>
       
@@ -280,8 +298,6 @@
           
 
   
-
-
 
         </div>
         
@@ -577,6 +593,24 @@
 
 
 
+
+
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 9215972af2348a22e8e4 # '9215972af2348a22e8e4',
+          clientSecret: 7e6e964e65c2d1e61f4a6307550fe9468c537c67 '7e6e964e65c2d1e61f4a6307550fe9468c537c67',
+          repo: https://github.com/Clarence-chemistry/for-commont.git 'https://github.com/Clarence-chemistry/for-commont.git',
+          owner: Clarence '410612022@gms.ndhu.edu.tw',
+          admin: 410612022@gms.ndhu.edu.tw ['410612022@gms.ndhu.edu.tw'],
+          id: 有機化學入門
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')           
+       </script>
 
 
 
